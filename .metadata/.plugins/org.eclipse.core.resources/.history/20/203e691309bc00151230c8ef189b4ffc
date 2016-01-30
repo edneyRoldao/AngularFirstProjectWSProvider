@@ -1,0 +1,11 @@
+package com.phoneList.JSON;
+
+import org.codehaus.jettison.json.JSONObject;
+
+public interface ToJSON<T> {
+
+	JSONObject convertJavaObjectToJSONObject(T entity);
+	
+	T convertJSONObjectToJavaObject(String jsonData);
+	
+}
