@@ -1,9 +1,0 @@
-package com.phoneList.test;
-
-public class JSONArrayConvertTest {
-	
-	public static void main(String[] args) {
-		
-	}
-
-}
